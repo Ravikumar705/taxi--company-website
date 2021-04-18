@@ -1,0 +1,300 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.cont-fluid-nav{
+    background-color: rgba(0, 0, 0, 0.8) !important; 
+}
+
+.navbar{
+    background-color: transparent !important; 
+    position: relative;
+    z-index: 1;  
+}
+.navbar-brand{
+    color: #e67e22 !important;
+    font-weight: bold;
+
+}
+.img-container{
+    background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../images/bg1.jpg");      /* 1st*/
+    background-blend-mode: darken;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+
+}
+
+.nav-link{
+    color: white !important;
+
+}
+
+.nav-link{
+    margin: 0px 15px;
+    border:0px solid orange;
+    border-radius: 5px;
+    padding:5px 10px; 
+}
+.nav-link:hover{
+    background-color: #e67e22 ;
+    border-radius: 3px;
+    transition: 0.5s;
+    color: black!important;
+}
+
+.jumbotron{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
+
+.jumbotron h1{
+    color:#e67e22 ;
+}
+
+#book-btn{
+    outline: none;
+    color: black;
+    background-color: white;
+}
+#book-btn:hover{
+    font-weight: bold;
+}
+.firsthr{
+    background-color: white;
+}
+.firsthr1{
+    background-color: rgb(197, 195, 195);
+    border: 1px solid gray;
+}
+
+.cont-fluid2{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    background: url("../images/img5.jpg");
+    background-position: 80% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border: 1px solid red; */
+    
+}
+/* //=============================================== check box ============================================ */
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+}
+
+input[type="checkbox"]+label:before {
+    border: 1px solid #333;
+    content: "\00a0";
+    display: inline-block;
+    font: 16px/1em sans-serif;
+    height: 16px;
+    margin: 0 .25em 0 0;
+    padding: 0;
+    vertical-align: top;
+    width: 16px;
+}
+
+input[type="checkbox"]:checked+label:before {
+    background: black;
+    color: orange;
+    content: "\2714";
+    text-align: center;
+}
+
+input[type="checkbox"]:checked+label:after {
+    font-weight: bold;
+}
+
+input[type="checkbox"]:focus+label::before {
+    outline: rgb(59, 153, 252) auto 5px;
+}
+/* ========================================================================== */
+
+ 
+ #read-more{
+     width: 150px;
+     height: 30px;
+     border: none;
+     background-color: orange;
+
+ }
+ #arow-icon{
+     color: white;
+     font-size: 20px;
+ }
+/* ================================================================================================== */
+.contact-data{
+    background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../images/bg3.jpg"); 
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: covers;
+
+}
+.contact-data label{
+    color: white;
+}
+.row-book{
+    justify-content: center;
+    padding-top:10px ;
+    
+}
+
+
+.contact-data  h3{
+    color: orange;
+    text-align: center;
+
+}
+#date1{
+    width: 120px;;
+}
+#date2,#date3{
+    width: 50px;;
+}
+
+#book-trip-btn{
+    width: 200px;
+    background-color: orange;
+    border: none;
+    height: 30px;
+    
+}
+
+.lasthr,.firsthr{
+    border-top: 2px solid white;
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+
+}
+.midhr{
+border-top: 2px dashed orange;
+ width: 300px;
+ margin: 0px;
+ padding: 0px;
+
+}
+
+.container-driver{
+    align-items: center;
+    text-align: center;
+}
+.container-driver h3{
+    color: orange;
+}
+
+.container-driver .lasthr,.container-driver .firsthr{
+    border-top: 2px solid gray;
+   max-width: 130px;
+    margin-bottom: 30px;
+    padding: 0px;
+
+}
+
+
+.cont-customer{
+    background-color: rgb(221, 134, 21);
+}
+
+.custmer-rev{
+    text-align: center;
+}
+
+.custmer-rev .midhr{
+    border-top: 2px dashed white;
+    max-width: 100px;
+    margin-bottom: 20px;
+    padding: 0px;
+    
+ }
+
+ .quotes,.human-img{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ #hum-id{
+     border: 1px solid white;
+     border-radius: 50%;
+     padding: 5px;
+ }
+.blank-cont{
+    width: 100%;
+    height: 2vh;
+    background-color: orange;
+}
+
+.footer-data{
+    background-color: black;
+    color: gray;
+}
+
+.footer-data h5{
+    color: orange;
+}
+.stright-line{
+    color: orange;
+}
+.text-foot{
+    width: 200px;
+}
+.f-hr{
+    border-top: 1px solid gray;
+    width: 120px;
+    margin: 5px;
+}
+.web-glad1,.quick-link1,.sub-hr1{
+    border-top: 2px solid gray;
+    width: 180px;
+    margin: 5px;
+}
+.web-glad2,.quick-link2,.sub-hr2{
+    border-top: 2px solid orange;
+    width: 150px;
+    margin-left: 5px;
+    margin-top: -5px;
+}
+
+.footer-data .row ul li{
+    list-style: none;
+}
+
+/* appstor play store image */
+#playandapp{
+    width: 400px;
+}
+
+@media (max-width:600px){
+    #playandapp{
+        width: 200px;
+    } 
+}
+@media (max-width:1000px){
+    .firsthr,.midhr,.lasthr{
+        display: none;
+    }
+}
+
+
+.Copyrights{
+    background-color: rgb(77, 76, 76);
+    color: grey;
+    /* line-height: 7vh; */
+    /* height: 7vh; */
+    padding: 15px;
+}
